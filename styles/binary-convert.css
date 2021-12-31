@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 0;
+}
+
+input {
+  border-radius: 5px;
+  border: 0;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+button {
+  border-radius: 5px;
+  border: 0;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 80px;
+  height: 10%;
+  position: relative;
+  cursor: pointer;
+}
+
+#heading-container {
+  border-radius: 6px;
+  width: 100%;
+  background-color: burlywood;
+  border: 1px solid black;
+  position: relative;
+  top: 0;
+  height: 45px;
+}
+
+#heading {
+  font-weight: bold;
+  font-size: larger;
+  position: relative;
+  left: 37%;
+  margin: 0;
+  padding-top: 15px;
+  width: 50%;
+}
+
+#submit:hover {
+  background-color: green;
+}
+
+#submit {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 80px;
+  height: 10%;
+  position: relative;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: red;
+}
+
+#reset {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 80px;
+  height: 10%;
+  position: relative;
+  left: 110px;
+  bottom: 42px;
+  height: 29px;
+  cursor: pointer;
+}
+
+#main-container {
+  border-radius: 10px;
+  background-color: burlywood;
+  position: relative;
+  top: 100px;
+  border: 1px solid black;
+  margin: auto;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 300px;
+}
+
+#decimal {
+  width: 80%;
+  height: 30px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+#display-text {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+#home {
+  position: relative;
+  left: 316.5px;
+  bottom: 45px;
+}
+
+.no-margins {
+  margin: 0;
+  line-height: 1.5;
+  width: 80.5%;
+}
+
+.h2-heading {
+  position: relative;
+  left: 703px;
+  top: 80px;
+  margin: 0;
+}

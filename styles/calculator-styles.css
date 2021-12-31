@@ -1,0 +1,145 @@
+body {
+  background-color: lightseagreen;
+}
+
+input:hover {
+  background-color: #fcc465;
+  cursor: pointer;
+}
+
+input {
+  background-color: blanchedalmond;
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+p {
+  font-family: sans-serif;
+  padding-right: 20px;
+  padding-left: 15px;
+  background-color: ghostwhite;
+  margin: 0;
+  padding-top: 20px;
+  border: 1px solid black;
+  font-size: 100px;
+  text-align: right;
+}
+
+a:hover {
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: monospace;
+  position: relative;
+  top: 117px;
+  left: 924px;
+  margin: 0;
+}
+
+#calculator-container {
+  overflow: hidden;
+  position: relative;
+  top: 80px;
+  width: 572px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 150px 100px 100px 100px 100px 100px;
+  grid-template-columns: 140px 140px 140px 135px;
+  grid-template-areas:
+    "display display display display"
+    "sqrt modulo clear divide"
+    "seven eight nine multi"
+    "four five six subtraction"
+    "one two three addition"
+    "deci zero-key posneg equal";
+  grid-gap: 5px;
+}
+
+#display {
+  grid-area: display;
+}
+
+#sqrt {
+  grid-area: sqrt;
+}
+
+#modulo {
+  grid-area: modulo;
+}
+
+#clear {
+  grid-area: clear;
+}
+
+#divide {
+  grid-area: divide;
+}
+
+#seven {
+  grid-area: seven;
+}
+
+#eight {
+  grid-area: eight;
+}
+
+#nine {
+  grid-area: nine;
+}
+
+#multiply {
+  grid-area: multi;
+}
+
+#four {
+  grid-area: four;
+}
+
+#five {
+  grid-area: five;
+}
+
+#six {
+  grid-area: six;
+}
+
+#sub {
+  grid-area: subtraction;
+}
+
+#one {
+  grid-area: one;
+}
+
+#two {
+  grid-area: two;
+}
+
+#three {
+  grid-area: three;
+}
+
+#add {
+  grid-area: addition;
+}
+
+#decimal {
+  grid-area: deci;
+}
+
+#zero {
+  grid-area: zero-key;
+}
+
+#posneg {
+  grid-area: posneg;
+}
+
+#equal {
+  grid-area: equal;
+}
