@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="styles/calculator-styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/calculator-styles.css" />
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  </head>
+  <body>
     <main>
-        <div id="calculator-container">
-            <p id="display">0</p>
-            <input id="sqrt" type="button" value="Sqrt" onclick="getSqrt('sqrt')">
-            <input id="modulo" type="button" value="%" onclick="setOperator('modulo')">
-            <input id="clear" type="button" value="Clear" onclick="clearEntries()">
-            <input id="divide" type="button" value="/" onclick="setOperator('divide')">
-            <input id="seven" type="button" value="7" onclick="updateDisplay('seven')">
-            <input id="eight" type="button" value="8" onclick="updateDisplay('eight')">
-            <input id="nine" type="button" value="9" onclick="updateDisplay('nine')">
-            <input id="multiply" type="button" value="*" onclick="setOperator('multiply')">
-            <input id="four" type="button" value="4" onclick="updateDisplay('four')">
-            <input id="five" type="button" value="5" onclick="updateDisplay('five')">
-            <input id="six" type="button" value="6" onclick="updateDisplay('six')">
-            <input id="sub" type="button" value="-" onclick="setOperator('sub')">
-            <input id="one" type="button" value="1" onclick="updateDisplay('one')">
-            <input id="two" type="button" value="2" onclick="updateDisplay('two')">
-            <input id="three" type="button" value="3" onclick="updateDisplay('three')">
-            <input id="add" type="button" value="+" onclick="setOperator('add')">
-            <input id="decimal" type="button" value="." onclick="updateDisplay('decimal')">
-            <input id="zero" type="button" value="0" onclick="updateDisplay('zero')">
-            <input id="posneg" type="button" value="+/-" onclick="updatePolarity()">
-            <input id="equal" type="button" value="=" onclick="compute()">
-        </div>
-        <a href="home-page.html">Home</a>
+      <div id="calculator-container">
+        <p id="display">0</p>
+        <input id="sqrt" type="button" value="Sqrt" onclick="getSqrt('sqrt')" />
+        <input id="modulo" type="button" value="%" onclick="setOperator('modulo')" />
+        <input id="clear" type="button" value="Clear" onclick="clearEntries()" />
+        <input id="divide" type="button" value="/" onclick="setOperator('divide')" />
+        <input id="seven" type="button" value="7" onclick="updateDisplay('seven')" />
+        <input id="eight" type="button" value="8" onclick="updateDisplay('eight')" />
+        <input id="nine" type="button" value="9" onclick="updateDisplay('nine')" />
+        <input id="multiply" type="button" value="*" onclick="setOperator('multiply')" />
+        <input id="four" type="button" value="4" onclick="updateDisplay('four')" />
+        <input id="five" type="button" value="5" onclick="updateDisplay('five')" />
+        <input id="six" type="button" value="6" onclick="updateDisplay('six')" />
+        <input id="sub" type="button" value="-" onclick="setOperator('sub')" />
+        <input id="one" type="button" value="1" onclick="updateDisplay('one')" />
+        <input id="two" type="button" value="2" onclick="updateDisplay('two')" />
+        <input id="three" type="button" value="3" onclick="updateDisplay('three')" />
+        <input id="add" type="button" value="+" onclick="setOperator('add')" />
+        <input id="decimal" type="button" value="." onclick="updateDisplay('decimal')" />
+        <input id="zero" type="button" value="0" onclick="updateDisplay('zero')" />
+        <input id="posneg" type="button" value="+/-" onclick="updatePolarity()" />
+        <input id="equal" type="button" value="=" onclick="compute()" />
+      </div>
+      <a href="home-page.html">Home</a>
     </main>
     <script src="scripts/calculator.js"></script>
-</body>
+  </body>
 </html>
