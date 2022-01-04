@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="styles/home-page.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/home-page.css" />
+  </head>
+  <body>
     <main>
-        <div id="main-container">
-            <div id="basic-calculator" onclick="calculatorRedirect()">
-                <img class="image-resize" src="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png" alt="calculator">
-                <p class="remove-margins">Basic Calculator</p>
-            </div>
-            <div id="binary-conversion" onclick="binaryRedirect()">
-                <img class="image-resize2" src="https://w7.pngwing.com/pngs/925/822/png-transparent-computer-file-illustration-binary-file-computer-icons-binary-number-source-code-android-application-package-binary-data-icon-miscellaneous-text-rectangle.png" alt="">
-                <p class="remove-margins">Binary/Decimal Conversion</p>
-            </div>
+      <div id="title-container">
+        <h1>A Series of Calculator Projects</h1>
+      </div>
+      <div id="main-container">
+        <div id="basic-calculator" onclick="calculatorRedirect()">
+          <img
+            class="image-resize"
+            src="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png"
+            alt="calculator"
+          />
+          <p class="remove-margins">Basic Calculator</p>
         </div>
+        <div id="binary-conversion" onclick="binaryRedirect()">
+          <img class="image-resize2" src="images/binaryimage.png" alt="" />
+          <p class="remove-margins">Binary/Decimal Conversion</p>
+        </div>
+      </div>
     </main>
     <script src="scripts/home-page.js"></script>
-</body>
+  </body>
 </html>
